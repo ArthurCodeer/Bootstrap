@@ -1,22 +1,34 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-<nav class="navbar-inverse my_nav_bar"> 
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
     <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Arturo Castellanos</a>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Perter Parker</a>
     </div>
+    
     <div class="collapse navbar-collapse" id="myNavBar">
     <ul class="nav navbar-nav">
         <li><a href="#name">SCHOOL NAME</a></li>
@@ -27,18 +39,86 @@
         <li><a href="#contact">CONTACT US</a></li>
     </ul>
     </div>
-    </nav>
-    <div>
-    <marquee width="60%" direction="right" height="100px">
+</nav>
+  
+<!--
+Start coding from here
+-->
+    
+    <div class="container">
+    
+        <marquee width="60%" direction="right" height="100px">
 Welcome to the iMater Acadamey website.
-</marquee></div>
+</marquee>
     
     <iframe width="679" height="382" src="https://www.youtube.com/embed/buALxVLbZ28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
     <div class="container">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contact us"><h2 class="text-capitalize">Contact Us</h2></div>
+        
+        
+ 
+        
+        <div class="page-header" id="campus-life">
+        <h2 class="text-capitalize">Locations in the school</h2>
+        </div>
+        
+        <center>
+        <div class="travel_div">
+            <img class="img-responsive" src="https://www.food-management.com/sites/food-management.com/files/styles/article_featured_retina/public/after-claremont-elem-promo_0.jpg?itok=YIq-TQar">
+            
+            <h4 class="text-capitalize"><kbd>Cafeteria/Canteen</kbd></h4>
+            
+            <hr >
+            
+            <p class="text-muted text-left">
+About what you would expect as a cafeteria, a bunch of tables, some food counter where they give out food to the students, and long chairs connected to the cafeteria. Though the food is free so i guess thats a plus.
+            </p>
+            </div>
+        </center>
+        
+        
+        
+        
+    <div class="page-header" id="achivements">
+        <h2 class="text-capitalize">achivements</h2>
+        </div>    
+        
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#rating">
+        <span class="glyphicon glyphicon-film"> School rating</span><i class="fa fa-sort-desc"></i>
+        </div>
+        
+        <div id="rating" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            
+            <img src="https://images2.publicschoolreview.com/charts/total_teachers/146000/146120/imater-academy-chart-bufckJj.png" class="img-responsive img-thumbnail">
+            
+            </div>
+            
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">iMater Elementary Academy ratings 2014-2018</h5>
 
-        <iframe src="https://www.google.com/maps/place/iMater+Charter+Middle%2FHigh+School/@25.83971,-80.2968164,17z/data=!4m9!1m2!2m1!1simater!3m5!1s0x88d9ba69617fd29b:0x278c7d7601fd22f8!8m2!3d25.8405835!4d-80.2949405!15sCgZpbWF0ZXKSAQ5jaGFydGVyX3NjaG9vbA" height="450" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+        </div>
+        
+              <div class="bg-primary movie_head" data-toggle="collapse" data-target="#male-to-female">
+        <span class="glyphicon glyphicon-film"> male to female ratio</span><i class="fa fa-sort-desc"></i>
+        </div>
+        
+        <div id="rating" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            
+            <img src="https://images2.publicschoolreview.com/charts/gender/146000/146120/imater-academy-chart-d48ylN.png">
+            
+            </div>
+            
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">iMater Elementary Academy male-to-female ratio</h5>
+
+            </div>
+            <iframe src="https://www.google.com/maps/place/iMater+Academy/@25.8391805,-80.2964246,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9ba6be3bc788f:0x56ccd26ca88f40f5!8m2!3d25.8395231!4d-80.2942394?hl=en" height="450" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        
+
         
        <div id="deatails" >
         <img src="https://image.flaticon.com/icons/png/512/1999/1999321.png" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -54,5 +134,39 @@ Welcome to the iMater Acadamey website.
         
     </div>
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <section id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+
+
+        <div class="contact_1" >
+
+           <a href="mailto:my@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+            </a> 
+
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a> 
+        </div>
+</section>
+
+
 </body>
 </html>
